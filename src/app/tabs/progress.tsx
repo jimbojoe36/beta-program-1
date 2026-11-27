@@ -1,11 +1,11 @@
- import { router } from "expo-router";
+ import { router , useLocalSearchParams } from "expo-router";
 import { useState } from "react";
 import { useEvents } from "@/store/events";
-import { FlatList, StyleSheet, Text, View } from "react-native";
+import { FlatList, StyleSheet, Text, View , ScrollView } from "react-native";
 import { Calendar as ReactCalendar } from "react-native-calendars";
 import Activity from "../components/activity";
-import { useLocalSearchParams } from "expo-router";
-import { ScrollView } from "react-native";
+
+
 import TabHeader from "../components/tabheader";
 
 const history = [

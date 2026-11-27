@@ -2,12 +2,12 @@
 import { useLocalSearchParams } from "expo-router";
 import { router } from "expo-router";
 import { useState } from "react";
-import { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
+import Alert, { FlatList, Pressable, StyleSheet, Text, View } from "react-native";
 import Activity from "../components/activity";
 import BackButton from "../components/backButton";
 import { useEvents } from "@/store/events";
 import ReanimatedSwipeable from "react-native-gesture-handler/ReanimatedSwipeable";
-import Alert from "react-native";
+
 import { buildRecommendations } from "../utils/recommendations";
 
 
